@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: marketmate-config
+  namespace: marketmate
+data:
+  APP_ENV: "deployment"
+  APP_IMAGE: "test"

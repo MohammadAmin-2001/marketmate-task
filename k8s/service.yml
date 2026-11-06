@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: marketmate
+  namespace: marketmate
+spec:
+  type: NodePort
+  selector:
+    app: marketmate
+  ports:
+    - port: 80
+      targetPort: 8000
+      nodePort: 30080

@@ -1,0 +1,10 @@
+.env
+.secrets/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+report.xml
